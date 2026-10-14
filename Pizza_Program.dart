@@ -1,4 +1,3 @@
-
 import 'dart:io';
 void main(){
     int pizza_price = 0;
@@ -14,10 +13,10 @@ void main(){
     } else {
         print ("Incorrect size. Please try again.");
     }
-    print ("How many pizzas do you want of pizza_size?");
+    print ("How many pizzas do you want of pizza size?");
     int pizza_amount = int.parse(stdin.readLineSync()!);
     int total = pizza_amount*pizza_price;
-    print ("Your total payment: RM $total");
+    print ("Your total payment: $total USD");
 
 }
 //Note: Please run the program in terminal or external terminal in vsc, otherwise it will identify all inputs as 'null'.
